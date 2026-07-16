@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Griun_Cherry1Spoon-Rg";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Griun_Cherry1Spoon-Rg.ttf") format("truetype");
+}
+
+.linkbox {
+  margin: 5%;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Griun_Cherry1Spoon-Rg";
+  gap: 5%;
+}
+
+.linktext {
+  line-height: 150%;
+  width: 30%;
+  height: 30%;
+  font-size: 500%;
+  text-align: center;
+  color: black;
+  font-family: "Griun_Cherry1Spoon-Rg", sans-serif;
+}
+
+.linkimg {
+  width: 20%;
+  height: auto;
+}

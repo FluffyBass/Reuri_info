@@ -1,0 +1,34 @@
+.picture {
+  width: 40%;
+  height: auto;
+  margin: 5%;
+  display: flex;
+  border-radius: 5%;
+}
+
+.picture_box {
+  margin: 5%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+@font-face {
+  font-family: "Griun_Cherry1Spoon-Rg";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Griun_Cherry1Spoon-Rg.ttf") format("truetype");
+}
+.Xsub_font {
+  line-height: 150%;
+  width: 280%;
+  height: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 200%;
+  text-align: center;
+  color: black;
+  font-family: "Griun_Cherry1Spoon-Rg", sans-serif;
+}
